@@ -82,7 +82,7 @@ def ComputeDelta(initList, resultList):
     
         testTM = FBMatrix()
         
-        FBMatrixMult(testTM, init=
+        FBMatrixMult(testTM, initElem, resultElem)
     
     
 def SetResult( pModel, matrix, pTime ):
